@@ -4,7 +4,7 @@
   "private": true,
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --exec node app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [
     "json-server"
