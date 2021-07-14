@@ -18,6 +18,10 @@ var apiRouter = require('./routes/api');
 require('dotenv').config();
 
 var app = express();
+let PORT = process.env.PORT || 3001
+app.listen(PORT, ()=>{
+  console.log("Server is running")
+});
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
