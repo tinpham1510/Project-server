@@ -4,8 +4,11 @@
   "private": true,
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon --exec node app.js"
   },
+  "keywords": [
+    "json-server"
+  ],
   "dependencies": {
     "ajv": "^8.4.0",
     "ajv-formats": "^2.1.0",
@@ -20,6 +23,7 @@
     "faker": "^5.5.3",
     "firebase": "^8.7.1",
     "firebase-admin": "^9.8.0",
+    "json-server": "^0.16.3",
     "morgan": "~1.9.1",
     "swagger-jsdoc": "^6.1.0",
     "swagger-ui-express": "^4.1.6",
